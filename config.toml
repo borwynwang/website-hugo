@@ -1,4 +1,4 @@
-baseurl = "https://borwynwang.com/"
+baseurl = "http://borwynwang.com/"
 title = "Ann Wang"
 theme = "pulp"
 canonifyurls = true
@@ -12,12 +12,11 @@ hasCJKLanguage = true
 
 [params]
     author = "Ann Wang"
-    avatar = "avatar.jpg"
-    # avatarDescription = "My avatar description"
+    avatar = "avatar.png"
+    # avatarDescription = "Ann"
     favicon = "favicon.ico"
     description = """
-        Please write anything here. Add stuff. I am looking for a job. 
-        Profiles, backgrounds, favorite things etc.
+        Hi! I'm Ann. I am a research scientist with formal training in molecular biology and hematology (specifically, myeloid cell biology). I want to continue to do impactful research at biotech/biopharmaceutical companies to inform better decisions about cancer treatments. These days, I study RNA splicing and neutrophil development. 
     """
     publicationYear = "2022"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
@@ -45,10 +44,10 @@ hasCJKLanguage = true
     weight = 20
 
 [[menu.main]]
-    identifier = "twitter"
-    # name = "Twitter"
-    pre = "<i class='fab fa-twitter fa-lg'></i>"
-    url = "https://twitter.com/borwyn_wang"
+    identifier = "linkedin"
+    # name = "LinkedIn"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://linkedin.com/in/borwynwang"
     weight = 30
 
 [[menu.main]]
