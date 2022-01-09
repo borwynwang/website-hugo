@@ -1,4 +1,4 @@
-baseurl = "http://borwynwang.com/"
+baseurl = "https://happy-swartz-bb8588.netlify.app"
 title = "Ann Wang"
 theme = "pulp"
 canonifyurls = true
