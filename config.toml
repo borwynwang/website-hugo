@@ -30,31 +30,31 @@ hasCJKLanguage = true
     term = ["JSON", "HTML"]
 
 [[menu.main]]
+    identifier = "about"
+    # name = "About Me" #If display text link, cancel comment out
+    pre = "<i class='fas fa-user-circle fa-lg'></i>" 
+    url = "https://www.canva.com/design/DAE0_13hRsM/RBbpyFYSU0iUptZLtVdD6A/view?utm_content=DAE0_13hRsM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+    weight = 10
+
+[[menu.main]]
     identifier = "blog"
     # name = "Blog" #If display text link, cancel comment out
     pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
     url = "/blog/"
-    weight = 10
+    weight = 20
 
 [[menu.main]]
     identifier = "email"
     # name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
     url = "mailto:borwyn.wang@gmail.com"
-    weight = 20
+    weight = 30
 
 [[menu.main]]
     identifier = "linkedin"
     # name = "LinkedIn"
     pre = "<i class='fab fa-linkedin fa-lg'></i>"
     url = "https://linkedin.com/in/borwynwang"
-    weight = 30
-
-[[menu.main]]
-    identifier = "user manual"
-    # name = "User Manual" #If display text link, cancel comment out
-    pre = "<i class='fas fa-user-circle fa-lg'></i>" 
-    url = "/blog/"
     weight = 40
 
 [[menu.main]]
